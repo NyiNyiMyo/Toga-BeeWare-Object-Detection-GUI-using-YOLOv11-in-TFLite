@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.4.5
+Name: yolov11detector
+Formal-Name: YOLOv11 Detector
+App-ID: com.nyinyimyo.yolov11detector
+Version: 1.0.0
+Home-page: https://example.com/yolov11detector
+Download-URL: https://example.com/yolov11detector
+Author: NyiNyiMyo
+Author-email: nyinyi.m@kkumail.com
+Summary: YOLOv11 TFLite object detection on images, videos and webcams (Toga / BeeWare)

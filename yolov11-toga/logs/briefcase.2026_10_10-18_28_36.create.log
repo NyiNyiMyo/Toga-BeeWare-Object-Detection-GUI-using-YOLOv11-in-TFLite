@@ -1,0 +1,814 @@
+Date/Time:       2026-10-10 18:28:37 
+Command line:    C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Scripts\briefcase create android
+
+OS Release:      Windows 11
+OS Version:      10.0.26300
+Architecture:    AMD64
+Platform:        Windows-11-10.0.26300-SP0
+
+Python exe:      C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Scripts\python.exe
+Python version:  3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.4.5
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	ANDROID_HOME=C:\Users\User\AppData\Local\Android\Sdk
+	ANDROID_SDK_ROOT=C:\Users\User\AppData\Local\Android\Sdk
+	APPDATA=C:\Users\User\AppData\Roaming
+	ASL.LOG=Destination=file
+	CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+	CHOCOLATEYLASTPATHUPDATE=134066571632978663
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=DESKTOP-9O13A6V
+	COMSPEC=C:\WINDOWS\system32\cmd.exe
+	CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0
+	CUDA_PATH_V12_0=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0
+	CUDA_PATH_V13_0=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\User
+	JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+	LOCALAPPDATA=C:\Users\User\AppData\Local
+	LOGONSERVER=\\DESKTOP-9O13A6V
+	NUMBER_OF_PROCESSORS=20
+	ONEDRIVE=C:\Users\User\OneDrive
+	OPENSSL_IA32CAP=:~0x20000000
+	OS=Windows_NT
+	PATH=C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.4.0\;C:\ProgramData\chocolatey\bin;C:\Users\User\AppData\Roaming\npm;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\User\.cargo\bin;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\flutter\bin;C:\Users\User\.dotnet\tools;C:\Users\User\AppData\Roaming\npm
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=9a03
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PSMODULEPATH=C:\Users\User\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	QTMSBUILD=C:\Users\User\AppData\Local\QtMsBuild
+	SESSIONNAME=Console
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\WINDOWS
+	TEMP=C:\Users\User\AppData\Local\Temp
+	TMP=C:\Users\User\AppData\Local\Temp
+	USERDOMAIN=DESKTOP-9O13A6V
+	USERDOMAIN_ROAMINGPROFILE=DESKTOP-9O13A6V
+	USERNAME=User
+	USERPROFILE=C:\Users\User
+	VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+	VIRTUAL_ENV=C:\Users\User\Downloads\Toga (BeeWare) works\.venv
+	VIRTUAL_ENV_PROMPT=.venv
+	WINDIR=C:\WINDOWS
+	WSLENV=WT_SESSION:WT_PROFILE_ID:
+	WT_PROFILE_ID={61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+	WT_SESSION=3fe406fd-4e30-470c-93ed-23208232a0ae
+	WXWIN=C:\Users\User\Downloads\c++ works\wxWidgets-3.3.3
+	ZES_ENABLE_SYSMAN=1
+	_OLD_VIRTUAL_PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-25.0.1.8-hotspot\bin;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.4.0\;C:\ProgramData\chocolatey\bin;C:\Users\User\AppData\Roaming\npm;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\User\.cargo\bin;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Users\User\AppData\Local\Android\Sdk\tools;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\flutter\bin;C:\Users\User\.dotnet\tools;C:\Users\User\AppData\Roaming\npm
+
+pyproject.toml:
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "YOLOv11 Detector"
+bundle = "com.nyinyimyo"
+version = "1.0.0"
+url = "https://example.com/yolov11detector"
+license.file = "LICENSE"
+author = "NyiNyiMyo"
+author_email = "nyinyi.m@kkumail.com"
+
+[tool.briefcase.app.yolov11detector]
+# Window title is set in code: "YOLOv11 Detector - Toga (BeeWare)".
+# formal_name stays simple so installers / APK names don't choke on "()".
+formal_name = "YOLOv11 Detector"
+description = "YOLOv11 TFLite object detection on images, videos and webcams (Toga / BeeWare)"
+sources = ["src/yolov11detector"]
+test_sources = []
+
+# shared by every platform
+requires = [
+    "numpy",
+    "opencv-python-headless",
+]
+
+[tool.briefcase.app.yolov11detector.macOS]
+universal_build = true
+requires = ["toga-cocoa~=0.5.0", "ai-edge-litert"]
+
+[tool.briefcase.app.yolov11detector.linux]
+requires = ["toga-gtk~=0.5.0", "ai-edge-litert"]
+
+[tool.briefcase.app.yolov11detector.linux.system.debian]
+system_requires = [
+    "libcairo2-dev", "libgirepository1.0-dev", "libgirepository-2.0-dev", "pkg-config", "python3-dev",
+]
+system_runtime_requires = ["libgtk-3-0", "gir1.2-gtk-3.0", "libglib2.0-0"]
+
+[tool.briefcase.app.yolov11detector.windows]
+requires = ["toga-winforms~=0.5.0", "ai-edge-litert"]
+
+[tool.briefcase.app.yolov11detector.android]
+requires = ["toga-android~=0.5.0", "tflite-runtime"]
+base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
+build_gradle_dependencies = [
+    "com.google.android.material:material:1.12.0",
+]
+
+[tool.briefcase.app.yolov11detector.android.permission]
+camera = true
+
+Briefcase Log:
+[18:24:22]                                                                                                                                                            console.py:367
+           ********************************************************************************                                                                           console.py:367
+           **                   WARNING: Project path contains spaces                    **                                                                           console.py:367
+           ********************************************************************************                                                                           console.py:367
+                                                                                                                                                                      console.py:367
+             The location of your Briefcase project:                                                                                                                  console.py:367
+                                                                                                                                                                      console.py:367
+                 C:\Users\User\Downloads\Toga (BeeWare) works\yolov11-toga                                                                                            console.py:367
+                                                                                                                                                                      console.py:367
+             contains spaces. This can cause problems with some tools, preventing you                                                                                 console.py:367
+             from building and packaging applications. If you experience problems                                                                                     console.py:367
+             building or running the app, move the project to a path that doesn't contain                                                                             console.py:367
+             spaces.                                                                                                                                                  console.py:367
+                                                                                                                                                                      console.py:367
+           ********************************************************************************                                                                           console.py:367
+                                                                                                                                                                      console.py:367
+           ********************************************************************************                                                                           console.py:367
+           **       WARNING: 'yolov11detector' uses PEP 621 `license.file` format        **                                                                           console.py:367
+           ********************************************************************************                                                                           console.py:367
+                                                                                                                                                                      console.py:367
+             Briefcase now uses PEP 639 format for license definitions.                                                                                               console.py:367
+                                                                                                                                                                      console.py:367
+             PEP 639 requires the definition of both `license` and `license-files`. The                                                                               console.py:367
+             value for `license.file` will be used to populate the PEP 639 `license-                                                                                  console.py:367
+             files` setting.                                                                                                                                          console.py:367
+                                                                                                                                                                      console.py:367
+             The license has been identified as 'MIT'.                                                                                                                console.py:367
+                                                                                                                                                                      console.py:367
+             Update your configuration to use PEP 639 format:                                                                                                         console.py:367
+                                                                                                                                                                      console.py:367
+                 license = "MIT"                                                                                                                                      console.py:367
+                 license-files = ["LICENSE"]                                                                                                                          console.py:367
+                                                                                                                                                                      console.py:367
+             You should not release your project without resolving this warning.                                                                                      console.py:367
+                                                                                                                                                                      console.py:367
+           ********************************************************************************                                                                           console.py:367
+                                                                                                                                                                         java.py:141
+           [Java JDK] Evaluating JAVA_HOME...                                                                                                                            java.py:141
+           JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot                                                                                            java.py:142
+                                                                                                                                                                   subprocess.py:845
+           >>> Running Command:                                                                                                                                    subprocess.py:845
+           >>>     'C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin\javac' -version                                                                   subprocess.py:845
+           >>> Working Directory:                                                                                                                                  subprocess.py:845
+           >>>     C:\Users\User\Downloads\Toga (BeeWare) works\yolov11-toga                                                                                       subprocess.py:845
+           >>> Command Output:                                                                                                                                     subprocess.py:845
+           >>>     javac 17.0.17                                                                                                                                   subprocess.py:845
+           >>> Return code: 0                                                                                                                                      subprocess.py:845
+                                                                                                                                                                   subprocess.py:845
+           Using JDK at C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot                                                                                         java.py:273
+                                                                                                                                                                  android_sdk.py:296
+           [Android SDK] Evaluating ANDROID_HOME...                                                                                                               android_sdk.py:296
+           ANDROID_HOME=C:\Users\User\AppData\Local\Android\Sdk                                                                                                   android_sdk.py:297
+                                                                                                                                                                  android_sdk.py:508
+           [Android SDK] Installing Android Command-Line Tools 19.0...                                                                                            android_sdk.py:508
+           Using Android SDK at C:\Users\User\AppData\Local\Android\Sdk                                                                                           android_sdk.py:512
+                                                                                                                                                                   subprocess.py:845
+           >>> Running Command:                                                                                                                                    subprocess.py:845
+           >>>     'C:\Users\User\AppData\Local\Android\Sdk\cmdline-tools\latest\bin\sdkmanager.bat' 'cmdline-tools;19.0'                                          subprocess.py:845
+           >>> Working Directory:                                                                                                                                  subprocess.py:845
+           >>>     C:\Users\User\Downloads\Toga (BeeWare) works\yolov11-toga                                                                                       subprocess.py:845
+[18:28:36] >>> Return code: 1                                                                                                                                      subprocess.py:845
+                                                                                                                                                                   subprocess.py:845
+           Command '['C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\cmdline-tools\\latest\\bin\\sdkmanager.bat', 'cmdline-tools;19.0']' returned non-zero exit   android_sdk.py:530
+           status 1.                                                                                                                                                                
+           Failed to install cmdline-tools;19.0                                                                                                                   android_sdk.py:531
+                                                                                                                                                                      console.py:367
+           ********************************************************************************                                                                           console.py:367
+           **              WARNING: Incompatible Command-Line Tools Version              **                                                                           console.py:367
+           ********************************************************************************                                                                           console.py:367
+                                                                                                                                                                      console.py:367
+             The Android SDK specified by ANDROID_HOME at:                                                                                                            console.py:367
+                                                                                                                                                                      console.py:367
+               C:\Users\User\AppData\Local\Android\Sdk                                                                                                                console.py:367
+                                                                                                                                                                      console.py:367
+             does not contain Command-Line Tools version 19.0. Briefcase requires this                                                                                console.py:367
+             version to be installed to use an external Android SDK. Use Android Studio's                                                                             console.py:367
+             SDK Manager to install it.                                                                                                                               console.py:367
+                                                                                                                                                                      console.py:367
+             Briefcase will proceed using its own SDK instance.                                                                                                       console.py:367
+                                                                                                                                                                      console.py:367
+           ********************************************************************************                                                                           console.py:367
+                                                                                                                                                                  android_sdk.py:375
+           [android_sdk] The Android SDK was not found; downloading and installing...                                                                             android_sdk.py:375
+           To use an existing Android SDK instance, specify its root directory path in the ANDROID_HOME environment variable.                                     android_sdk.py:379
+                                                                                                                                                                  android_sdk.py:383
+                                                                                                                                                                      __main__.py:42
+           Unable to download Android SDK Command-Line Tools; is your computer offline?                                                                               __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           The reported cause of the problem was [WinError 10054] An existing connection was forcibly closed by the remote host                                       __main__.py:43
+           Saving log... started                                                                                                                                      console.py:566
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_transports\default.py:101 in map_httpcore_exceptions                                                 │
+│                                                                                                                                                                                  │
+│    98 │   if len(HTTPCORE_EXC_MAP) == 0:                                                                                                                                         │
+│    99 │   │   HTTPCORE_EXC_MAP = _load_httpcore_exceptions()                                                                                                                     │
+│   100 │   try:                                                                                                                                                                   │
+│ ❱ 101 │   │   yield                                                                                                                                                              │
+│   102 │   except Exception as exc:                                                                                                                                               │
+│   103 │   │   mapped_exc = None                                                                                                                                                  │
+│   104                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                   │
+│ │ message = '[WinError 10054] An existing connection was forcibly closed by the remote host' │                                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                   │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_transports\default.py:250 in handle_request                                                          │
+│                                                                                                                                                                                  │
+│   247 │   │   │   extensions=request.extensions,                                                                                                                                 │
+│   248 │   │   )                                                                                                                                                                  │
+│   249 │   │   with map_httpcore_exceptions():                                                                                                                                    │
+│ ❱ 250 │   │   │   resp = self._pool.handle_request(req)                                                                                                                          │
+│   251 │   │                                                                                                                                                                      │
+│   252 │   │   assert isinstance(resp.stream, typing.Iterable)                                                                                                                    │
+│   253                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────╮                                     │
+│ │ httpcore = <module 'httpcore' from 'C:\\Users\\User\\Downloads\\Toga (BeeWare) works\\.venv\\Lib\\site-packages\\httpcore\\__init__.py'> │                                     │
+│ │      req = <Request [b'GET']>                                                                                                            │                                     │
+│ │  request = <Request('GET', 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip')>                         │                                     │
+│ │     self = <httpx.HTTPTransport object at 0x00000159AC37DE80>                                                                            │                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py:256 in handle_request                                                     │
+│                                                                                                                                                                                  │
+│   253 │   │   │   │   closing = self._assign_requests_to_connections()                                                                                                           │
+│   254 │   │   │                                                                                                                                                                  │
+│   255 │   │   │   self._close_connections(closing)                                                                                                                               │
+│ ❱ 256 │   │   │   raise exc from None                                                                                                                                            │
+│   257 │   │                                                                                                                                                                      │
+│   258 │   │   # Return the response. Note that in this case we still have to manage                                                                                              │
+│   259 │   │   # the point at which the response is closed.                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │      closing = []                                                                                 │                                                                            │
+│ │   connection = <HTTPConnection ['https://dl.google.com:443', HTTP/1.1, CLOSED, Request Count: 1]> │                                                                            │
+│ │ pool_request = <httpcore._sync.connection_pool.PoolRequest object at 0x00000159AC37FE00>          │                                                                            │
+│ │      request = <Request [b'GET']>                                                                 │                                                                            │
+│ │       scheme = 'https'                                                                            │                                                                            │
+│ │         self = <ConnectionPool [Requests: 0 active, 0 queued | Connections: 0 active, 0 idle]>    │                                                                            │
+│ │      timeout = 5.0                                                                                │                                                                            │
+│ │     timeouts = {'connect': 5.0, 'read': 5.0, 'write': 5.0, 'pool': 5.0}                           │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py:236 in handle_request                                                     │
+│                                                                                                                                                                                  │
+│   233 │   │   │   │                                                                                                                                                              │
+│   234 │   │   │   │   try:                                                                                                                                                       │
+│   235 │   │   │   │   │   # Send the request on the assigned connection.                                                                                                         │
+│ ❱ 236 │   │   │   │   │   response = connection.handle_request(                                                                                                                  │
+│   237 │   │   │   │   │   │   pool_request.request                                                                                                                               │
+│   238 │   │   │   │   │   )                                                                                                                                                      │
+│   239 │   │   │   │   except ConnectionNotAvailable:                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │      closing = []                                                                                 │                                                                            │
+│ │   connection = <HTTPConnection ['https://dl.google.com:443', HTTP/1.1, CLOSED, Request Count: 1]> │                                                                            │
+│ │ pool_request = <httpcore._sync.connection_pool.PoolRequest object at 0x00000159AC37FE00>          │                                                                            │
+│ │      request = <Request [b'GET']>                                                                 │                                                                            │
+│ │       scheme = 'https'                                                                            │                                                                            │
+│ │         self = <ConnectionPool [Requests: 0 active, 0 queued | Connections: 0 active, 0 idle]>    │                                                                            │
+│ │      timeout = 5.0                                                                                │                                                                            │
+│ │     timeouts = {'connect': 5.0, 'read': 5.0, 'write': 5.0, 'pool': 5.0}                           │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_sync\connection.py:103 in handle_request                                                          │
+│                                                                                                                                                                                  │
+│   100 │   │   │   self._connect_failed = True                                                                                                                                    │
+│   101 │   │   │   raise exc                                                                                                                                                      │
+│   102 │   │                                                                                                                                                                      │
+│ ❱ 103 │   │   return self._connection.handle_request(request)                                                                                                                    │
+│   104 │                                                                                                                                                                          │
+│   105 │   def _connect(self, request: Request) -> NetworkStream:                                                                                                                 │
+│   106 │   │   timeouts = request.extensions.get("timeout", {})                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                        │
+│ │ http2_negotiated = False                                                                              │                                                                        │
+│ │          request = <Request [b'GET']>                                                                 │                                                                        │
+│ │             self = <HTTPConnection ['https://dl.google.com:443', HTTP/1.1, CLOSED, Request Count: 1]> │                                                                        │
+│ │       ssl_object = <_ssl._SSLSocket object at 0x00000159AC472F80>                                     │                                                                        │
+│ │           stream = <httpcore._backends.sync.SyncStream object at 0x00000159AC495950>                  │                                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                        │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_sync\http11.py:136 in handle_request                                                              │
+│                                                                                                                                                                                  │
+│   133 │   │   │   with ShieldCancellation():                                                                                                                                     │
+│   134 │   │   │   │   with Trace("response_closed", logger, request) as trace:                                                                                                   │
+│   135 │   │   │   │   │   self._response_closed()                                                                                                                                │
+│ ❱ 136 │   │   │   raise exc                                                                                                                                                      │
+│   137 │                                                                                                                                                                          │
+│   138 │   # Sending the request...                                                                                                                                               │
+│   139                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ───────────────────────────────────────╮                                                                                         │
+│ │  kwargs = {'request': <Request [b'GET']>}                                            │                                                                                         │
+│ │ request = <Request [b'GET']>                                                         │                                                                                         │
+│ │    self = <HTTP11Connection ['https://dl.google.com:443', CLOSED, Request Count: 1]> │                                                                                         │
+│ │   trace = <httpcore._trace.Trace object at 0x00000159AC4CDB50>                       │                                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────╯                                                                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_sync\http11.py:106 in handle_request                                                              │
+│                                                                                                                                                                                  │
+│   103 │   │   │   │   │   reason_phrase,                                                                                                                                         │
+│   104 │   │   │   │   │   headers,                                                                                                                                               │
+│   105 │   │   │   │   │   trailing_data,                                                                                                                                         │
+│ ❱ 106 │   │   │   │   ) = self._receive_response_headers(**kwargs)                                                                                                               │
+│   107 │   │   │   │   trace.return_value = (                                                                                                                                     │
+│   108 │   │   │   │   │   http_version,                                                                                                                                          │
+│   109 │   │   │   │   │   status,                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ───────────────────────────────────────╮                                                                                         │
+│ │  kwargs = {'request': <Request [b'GET']>}                                            │                                                                                         │
+│ │ request = <Request [b'GET']>                                                         │                                                                                         │
+│ │    self = <HTTP11Connection ['https://dl.google.com:443', CLOSED, Request Count: 1]> │                                                                                         │
+│ │   trace = <httpcore._trace.Trace object at 0x00000159AC4CDB50>                       │                                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────╯                                                                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_sync\http11.py:177 in _receive_response_headers                                                   │
+│                                                                                                                                                                                  │
+│   174 │   │   timeout = timeouts.get("read", None)                                                                                                                               │
+│   175 │   │                                                                                                                                                                      │
+│   176 │   │   while True:                                                                                                                                                        │
+│ ❱ 177 │   │   │   event = self._receive_event(timeout=timeout)                                                                                                                   │
+│   178 │   │   │   if isinstance(event, h11.Response):                                                                                                                            │
+│   179 │   │   │   │   break                                                                                                                                                      │
+│   180 │   │   │   if (                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ────────────────────────────────────────╮                                                                                        │
+│ │  request = <Request [b'GET']>                                                         │                                                                                        │
+│ │     self = <HTTP11Connection ['https://dl.google.com:443', CLOSED, Request Count: 1]> │                                                                                        │
+│ │  timeout = 5.0                                                                        │                                                                                        │
+│ │ timeouts = {'connect': 5.0, 'read': 5.0, 'write': 5.0, 'pool': 5.0}                   │                                                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────╯                                                                                        │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_sync\http11.py:217 in _receive_event                                                              │
+│                                                                                                                                                                                  │
+│   214 │   │   │   │   event = self._h11_state.next_event()                                                                                                                       │
+│   215 │   │   │                                                                                                                                                                  │
+│   216 │   │   │   if event is h11.NEED_DATA:                                                                                                                                     │
+│ ❱ 217 │   │   │   │   data = self._network_stream.read(                                                                                                                          │
+│   218 │   │   │   │   │   self.READ_NUM_BYTES, timeout=timeout                                                                                                                   │
+│   219 │   │   │   │   )                                                                                                                                                          │
+│   220                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ───────────────────────────────────────╮                                                                                         │
+│ │    self = <HTTP11Connection ['https://dl.google.com:443', CLOSED, Request Count: 1]> │                                                                                         │
+│ │ timeout = 5.0                                                                        │                                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────╯                                                                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_backends\sync.py:126 in read                                                                      │
+│                                                                                                                                                                                  │
+│   123 │                                                                                                                                                                          │
+│   124 │   def read(self, max_bytes: int, timeout: float | None = None) -> bytes:                                                                                                 │
+│   125 │   │   exc_map: ExceptionMapping = {socket.timeout: ReadTimeout, OSError: ReadError}                                                                                      │
+│ ❱ 126 │   │   with map_exceptions(exc_map):                                                                                                                                      │
+│   127 │   │   │   self._sock.settimeout(timeout)                                                                                                                                 │
+│   128 │   │   │   return self._sock.recv(max_bytes)                                                                                                                              │
+│   129                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────╮                                                        │
+│ │   exc_map = {<class 'TimeoutError'>: <class 'httpcore.ReadTimeout'>, <class 'OSError'>: <class 'httpcore.ReadError'>} │                                                        │
+│ │ max_bytes = 65536                                                                                                     │                                                        │
+│ │      self = <httpcore._backends.sync.SyncStream object at 0x00000159AC495950>                                         │                                                        │
+│ │   timeout = 5.0                                                                                                       │                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                        │
+│                                                                                                                                                                                  │
+│ C:\Python314\Lib\contextlib.py:162 in __exit__                                                                                                                                   │
+│                                                                                                                                                                                  │
+│   159 │   │   │   │   # tell if we get the same exception back                                                                                                                   │
+│   160 │   │   │   │   value = typ()                                                                                                                                              │
+│   161 │   │   │   try:                                                                                                                                                           │
+│ ❱ 162 │   │   │   │   self.gen.throw(value)                                                                                                                                      │
+│   163 │   │   │   except StopIteration as exc:                                                                                                                                   │
+│   164 │   │   │   │   # Suppress StopIteration *unless* it's the same exception that                                                                                             │
+│   165 │   │   │   │   # was passed to throw().  This prevents a StopIteration                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────╮                                                  │
+│ │      self = <contextlib._GeneratorContextManager object at 0x00000159AAE8F280>                                              │                                                  │
+│ │ traceback = <traceback object at 0x00000159AC50E2C0>                                                                        │                                                  │
+│ │     value = ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None) │                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                  │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpcore\_exceptions.py:14 in map_exceptions                                                                │
+│                                                                                                                                                                                  │
+│   11 │   except Exception as exc:  # noqa: PIE786                                                                                                                                │
+│   12 │   │   for from_exc, to_exc in map.items():                                                                                                                                │
+│   13 │   │   │   if isinstance(exc, from_exc):                                                                                                                                   │
+│ ❱ 14 │   │   │   │   raise to_exc(exc) from exc                                                                                                                                  │
+│   15 │   │   raise  # pragma: nocover                                                                                                                                            │
+│   16                                                                                                                                                                             │
+│   17                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────╮                                                              │
+│ │ map = {<class 'TimeoutError'>: <class 'httpcore.ReadTimeout'>, <class 'OSError'>: <class 'httpcore.ReadError'>} │                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\integrations\file.py:299 in download                                                              │
+│                                                                                                                                                                                  │
+│   296 │   │   download_path.mkdir(parents=True, exist_ok=True)                                                                                                                   │
+│   297 │   │   filename: Path | None = None                                                                                                                                       │
+│   298 │   │   try:                                                                                                                                                               │
+│ ❱ 299 │   │   │   with self.tools.httpx.stream(                                                                                                                                  │
+│   300 │   │   │   │   "GET",                                                                                                                                                     │
+│   301 │   │   │   │   url,                                                                                                                                                       │
+│   302 │   │   │   │   follow_redirects=True,                                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ─────────────────────────────────────────────────╮                                                                      │
+│ │     algorithm = 'sha256'                                                                                │                                                                      │
+│ │   description = 'Android SDK Command-Line Tools'                                                        │                                                                      │
+│ │        digest = '98b565cb657b012dae6794cefc0f66ae1efb4690c699b78a614b4a6a3505b003'                      │                                                                      │
+│ │ download_path = WindowsPath('C:/Users/User/AppData/Local/BeeWare/briefcase/Cache/tools')                │                                                                      │
+│ │ expected_hash = 'sha256:98b565cb657b012dae6794cefc0f66ae1efb4690c699b78a614b4a6a3505b003'               │                                                                      │
+│ │      filename = None                                                                                    │                                                                      │
+│ │          hint = 'is your computer offline?\n\nThe reported cause of the problem was [WinError 10054'+63 │                                                                      │
+│ │          role = 'Android SDK Command-Line Tools'                                                        │                                                                      │
+│ │          self = <briefcase.integrations.file.File object at 0x00000159AAE88830>                         │                                                                      │
+│ │           url = 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zi'+1    │                                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                      │
+│                                                                                                                                                                                  │
+│ C:\Python314\Lib\contextlib.py:141 in __enter__                                                                                                                                  │
+│                                                                                                                                                                                  │
+│   138 │   │   # they are only needed for recreation, which is not possible anymore             ╭───────────────────────────────── locals ──────────────────────────────────╮     │
+│   139 │   │   del self.args, self.kwds, self.func                                              │ self = <contextlib._GeneratorContextManager object at 0x00000159AC3D4950> │     │
+│   140 │   │   try:                                                                             ╰───────────────────────────────────────────────────────────────────────────╯     │
+│ ❱ 141 │   │   │   return next(self.gen)                                                                                                                                          │
+│   142 │   │   except StopIteration:                                                                                                                                              │
+│   143 │   │   │   raise RuntimeError("generator didn't yield") from None                                                                                                         │
+│   144                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_api.py:159 in stream                                                                                 │
+│                                                                                                                                                                                  │
+│   156 │   │   timeout=timeout,                                                                                                                                                   │
+│   157 │   │   trust_env=trust_env,                                                                                                                                               │
+│   158 │   ) as client:                                                                                                                                                           │
+│ ❱ 159 │   │   with client.stream(                                                                                                                                                │
+│   160 │   │   │   method=method,                                                                                                                                                 │
+│   161 │   │   │   url=url,                                                                                                                                                       │
+│   162 │   │   │   content=content,                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ─────────────────────────────────────────────────╮                                                                      │
+│ │             auth = None                                                                                 │                                                                      │
+│ │           client = <httpx.Client object at 0x00000159AC37D550>                                          │                                                                      │
+│ │          content = None                                                                                 │                                                                      │
+│ │          cookies = None                                                                                 │                                                                      │
+│ │             data = None                                                                                 │                                                                      │
+│ │            files = None                                                                                 │                                                                      │
+│ │ follow_redirects = True                                                                                 │                                                                      │
+│ │          headers = None                                                                                 │                                                                      │
+│ │             json = None                                                                                 │                                                                      │
+│ │           method = 'GET'                                                                                │                                                                      │
+│ │           params = None                                                                                 │                                                                      │
+│ │            proxy = None                                                                                 │                                                                      │
+│ │          timeout = Timeout(timeout=5.0)                                                                 │                                                                      │
+│ │        trust_env = True                                                                                 │                                                                      │
+│ │              url = 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zi'+1 │                                                                      │
+│ │           verify = <truststore._api.SSLContext object at 0x00000159AAF2ADE0>                            │                                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                      │
+│                                                                                                                                                                                  │
+│ C:\Python314\Lib\contextlib.py:141 in __enter__                                                                                                                                  │
+│                                                                                                                                                                                  │
+│   138 │   │   # they are only needed for recreation, which is not possible anymore             ╭───────────────────────────────── locals ──────────────────────────────────╮     │
+│   139 │   │   del self.args, self.kwds, self.func                                              │ self = <contextlib._GeneratorContextManager object at 0x00000159AC3D4A50> │     │
+│   140 │   │   try:                                                                             ╰───────────────────────────────────────────────────────────────────────────╯     │
+│ ❱ 141 │   │   │   return next(self.gen)                                                                                                                                          │
+│   142 │   │   except StopIteration:                                                                                                                                              │
+│   143 │   │   │   raise RuntimeError("generator didn't yield") from None                                                                                                         │
+│   144                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_client.py:868 in stream                                                                              │
+│                                                                                                                                                                                  │
+│    865 │   │   │   timeout=timeout,                                                                                                                                              │
+│    866 │   │   │   extensions=extensions,                                                                                                                                        │
+│    867 │   │   )                                                                                                                                                                 │
+│ ❱  868 │   │   response = self.send(                                                                                                                                             │
+│    869 │   │   │   request=request,                                                                                                                                              │
+│    870 │   │   │   auth=auth,                                                                                                                                                    │
+│    871 │   │   │   follow_redirects=follow_redirects,                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                     │
+│ │             auth = None                                                                                                  │                                                     │
+│ │          content = None                                                                                                  │                                                     │
+│ │          cookies = None                                                                                                  │                                                     │
+│ │             data = None                                                                                                  │                                                     │
+│ │       extensions = None                                                                                                  │                                                     │
+│ │            files = None                                                                                                  │                                                     │
+│ │ follow_redirects = True                                                                                                  │                                                     │
+│ │          headers = None                                                                                                  │                                                     │
+│ │             json = None                                                                                                  │                                                     │
+│ │           method = 'GET'                                                                                                 │                                                     │
+│ │           params = None                                                                                                  │                                                     │
+│ │          request = <Request('GET', 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip')> │                                                     │
+│ │             self = <httpx.Client object at 0x00000159AC37D550>                                                           │                                                     │
+│ │          timeout = <httpx._client.UseClientDefault object at 0x00000159AA7682F0>                                         │                                                     │
+│ │              url = 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zi'+1                  │                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_client.py:914 in send                                                                                │
+│                                                                                                                                                                                  │
+│    911 │   │                                                                                                                                                                     │
+│    912 │   │   auth = self._build_request_auth(request, auth)                                                                                                                    │
+│    913 │   │                                                                                                                                                                     │
+│ ❱  914 │   │   response = self._send_handling_auth(                                                                                                                              │
+│    915 │   │   │   request,                                                                                                                                                      │
+│    916 │   │   │   auth=auth,                                                                                                                                                    │
+│    917 │   │   │   follow_redirects=follow_redirects,                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                     │
+│ │             auth = <httpx.Auth object at 0x00000159AC37F620>                                                             │                                                     │
+│ │ follow_redirects = True                                                                                                  │                                                     │
+│ │          request = <Request('GET', 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip')> │                                                     │
+│ │             self = <httpx.Client object at 0x00000159AC37D550>                                                           │                                                     │
+│ │           stream = True                                                                                                  │                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_client.py:942 in _send_handling_auth                                                                 │
+│                                                                                                                                                                                  │
+│    939 │   │   │   request = next(auth_flow)                                                                                                                                     │
+│    940 │   │   │                                                                                                                                                                 │
+│    941 │   │   │   while True:                                                                                                                                                   │
+│ ❱  942 │   │   │   │   response = self._send_handling_redirects(                                                                                                                 │
+│    943 │   │   │   │   │   request,                                                                                                                                              │
+│    944 │   │   │   │   │   follow_redirects=follow_redirects,                                                                                                                    │
+│    945 │   │   │   │   │   history=history,                                                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                     │
+│ │             auth = <httpx.Auth object at 0x00000159AC37F620>                                                             │                                                     │
+│ │        auth_flow = <generator object Auth.sync_auth_flow at 0x00000159AC344130>                                          │                                                     │
+│ │ follow_redirects = True                                                                                                  │                                                     │
+│ │          history = []                                                                                                    │                                                     │
+│ │          request = <Request('GET', 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip')> │                                                     │
+│ │             self = <httpx.Client object at 0x00000159AC37D550>                                                           │                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_client.py:979 in _send_handling_redirects                                                            │
+│                                                                                                                                                                                  │
+│    976 │   │   │   for hook in self._event_hooks["request"]:                                                                                                                     │
+│    977 │   │   │   │   hook(request)                                                                                                                                             │
+│    978 │   │   │                                                                                                                                                                 │
+│ ❱  979 │   │   │   response = self._send_single_request(request)                                                                                                                 │
+│    980 │   │   │   try:                                                                                                                                                          │
+│    981 │   │   │   │   for hook in self._event_hooks["response"]:                                                                                                                │
+│    982 │   │   │   │   │   hook(response)                                                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                     │
+│ │ follow_redirects = True                                                                                                  │                                                     │
+│ │          history = []                                                                                                    │                                                     │
+│ │          request = <Request('GET', 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip')> │                                                     │
+│ │             self = <httpx.Client object at 0x00000159AC37D550>                                                           │                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                     │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_client.py:1014 in _send_single_request                                                               │
+│                                                                                                                                                                                  │
+│   1011 │   │   │   )                                                                                                                                                             │
+│   1012 │   │                                                                                                                                                                     │
+│   1013 │   │   with request_context(request=request):                                                                                                                            │
+│ ❱ 1014 │   │   │   response = transport.handle_request(request)                                                                                                                  │
+│   1015 │   │                                                                                                                                                                     │
+│   1016 │   │   assert isinstance(response.stream, SyncByteStream)                                                                                                                │
+│   1017                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────╮                                                            │
+│ │   request = <Request('GET', 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip')> │                                                            │
+│ │      self = <httpx.Client object at 0x00000159AC37D550>                                                           │                                                            │
+│ │     start = 599079.6078249                                                                                        │                                                            │
+│ │ transport = <httpx.HTTPTransport object at 0x00000159AC37DE80>                                                    │                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                            │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_transports\default.py:249 in handle_request                                                          │
+│                                                                                                                                                                                  │
+│   246 │   │   │   content=request.stream,                                                                                                                                        │
+│   247 │   │   │   extensions=request.extensions,                                                                                                                                 │
+│   248 │   │   )                                                                                                                                                                  │
+│ ❱ 249 │   │   with map_httpcore_exceptions():                                                                                                                                    │
+│   250 │   │   │   resp = self._pool.handle_request(req)                                                                                                                          │
+│   251 │   │                                                                                                                                                                      │
+│   252 │   │   assert isinstance(resp.stream, typing.Iterable)                                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────╮                                     │
+│ │ httpcore = <module 'httpcore' from 'C:\\Users\\User\\Downloads\\Toga (BeeWare) works\\.venv\\Lib\\site-packages\\httpcore\\__init__.py'> │                                     │
+│ │      req = <Request [b'GET']>                                                                                                            │                                     │
+│ │  request = <Request('GET', 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip')>                         │                                     │
+│ │     self = <httpx.HTTPTransport object at 0x00000159AC37DE80>                                                                            │                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                     │
+│                                                                                                                                                                                  │
+│ C:\Python314\Lib\contextlib.py:162 in __exit__                                                                                                                                   │
+│                                                                                                                                                                                  │
+│   159 │   │   │   │   # tell if we get the same exception back                                                                                                                   │
+│   160 │   │   │   │   value = typ()                                                                                                                                              │
+│   161 │   │   │   try:                                                                                                                                                           │
+│ ❱ 162 │   │   │   │   self.gen.throw(value)                                                                                                                                      │
+│   163 │   │   │   except StopIteration as exc:                                                                                                                                   │
+│   164 │   │   │   │   # Suppress StopIteration *unless* it's the same exception that                                                                                             │
+│   165 │   │   │   │   # was passed to throw().  This prevents a StopIteration                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────╮                                       │
+│ │      self = <contextlib._GeneratorContextManager object at 0x00000159AC4FF890>                                                         │                                       │
+│ │ traceback = <traceback object at 0x00000159AC50EA80>                                                                                   │                                       │
+│ │     value = ReadError(ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) │                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                       │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\httpx\_transports\default.py:118 in map_httpcore_exceptions                                                 │
+│                                                                                                                                                                                  │
+│   115 │   │   │   raise                                                                                                                                                          │
+│   116 │   │                                                                                                                                                                      │
+│   117 │   │   message = str(exc)                                                                                                                                                 │
+│ ❱ 118 │   │   raise mapped_exc(message) from exc                                                                                                                                 │
+│   119                                                                                                                                                                            │
+│   120                                                                                                                                                                            │
+│   121 class ResponseStream(SyncByteStream):                                                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                   │
+│ │ message = '[WinError 10054] An existing connection was forcibly closed by the remote host' │                                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\__main__.py:27 in main                                                                            │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000159AAB3BA10>                                                                        │ │
+│ │       console = <briefcase.console.Console object at 0x00000159AAB39FD0>                                                                                                     │ │
+│ │             e = NetworkFailure('download Android SDK Command-Line Tools', 'is your computer offline?\n\nThe reported cause of the problem was [WinError 10054] An existing   │ │
+│ │                 connection was forcibly closed by the remote host')                                                                                                          │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │       options = {}                                                                                                                                                           │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\commands\create.py:1083 in __call__                                                               │
+│                                                                                                                                                                                  │
+│   1080 │   │                                                                                                                                                                     │
+│   1081 │   │   # Confirm host compatibility, that all required tools are available,                                                                                              │
+│   1082 │   │   # and finalize configurations for the apps that will be created.                                                                                                  │
+│ ❱ 1083 │   │   finalized_apps = self.finalize(apps=apps_to_create.values())                                                                                                      │
+│   1084 │   │                                                                                                                                                                     │
+│   1085 │   │   state = None                                                                                                                                                      │
+│   1086 │   │   for _, app_obj in sorted(finalized_apps.items()):                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                       │
+│ │            app = None                                                                                  │                                                                       │
+│ │       app_name = None                                                                                  │                                                                       │
+│ │ apps_to_create = {'yolov11detector': <com.nyinyimyo.yolov11detector v1.0.0 DraftAppConfig>}            │                                                                       │
+│ │        options = {}                                                                                    │                                                                       │
+│ │           self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000159AAB3BA10> │                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                       │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\commands\base.py:826 in finalize                                                                  │
+│                                                                                                                                                                                  │
+│    823 │   │   :returns: A dict mapping app name to finalized app configs.                                                                                                       │
+│    824 │   │   """                                                                                                                                                               │
+│    825 │   │   self.verify_host()                                                                                                                                                │
+│ ❱  826 │   │   self.verify_tools()                                                                                                                                               │
+│    827 │   │                                                                                                                                                                     │
+│    828 │   │   finalized: dict[str, FinalizedAppConfig] = {}                                                                                                                     │
+│    829 │   │   for app in apps:                                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                        │
+│ │          apps = dict_values([<com.nyinyimyo.yolov11detector v1.0.0 DraftAppConfig>])                  │                                                                        │
+│ │      debugger = None                                                                                  │                                                                        │
+│ │ debugger_host = None                                                                                  │                                                                        │
+│ │ debugger_port = None                                                                                  │                                                                        │
+│ │          self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000159AAB3BA10> │                                                                        │
+│ │     test_mode = False                                                                                 │                                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                        │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\platforms\android\gradle.py:161 in verify_tools                                                   │
+│                                                                                                                                                                                  │
+│   158 │   │   """Verify that the Android APK tools in `briefcase` will operate on this system,                                                                                   │
+│   159 │   │   downloading tools as needed."""                                                                                                                                    │
+│   160 │   │   super().verify_tools()                                                                                                                                             │
+│ ❱ 161 │   │   AndroidSDK.verify(tools=self.tools)                                                                                                                                │
+│   162 │   │   if not self.is_clone:                                                                                                                                              │
+│   163 │   │   │   self.console.add_log_file_extra(self.tools.android_sdk.list_packages)                                                                                          │
+│   164                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                 │
+│ │ self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x00000159AAB3BA10> │                                                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                 │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\integrations\base.py:117 in verify                                                                │
+│                                                                                                                                                                                  │
+│   114 │   │   **kwargs,                                                                                                                                                          │
+│   115 │   ) -> Self:                                                                                                                                                             │
+│   116 │   │   """Confirm the managed tool is installed and available."""                                                                                                         │
+│ ❱ 117 │   │   return super().verify(tools=tools, app=app, install=install, **kwargs)                                                                                             │
+│   118 │                                                                                                                                                                          │
+│   119 │   @abstractmethod                                                                                                                                                        │
+│   120 │   def exists(self) -> bool:                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────── locals ────────────────────────────────────╮                                                                                               │
+│ │     app = None                                                                 │                                                                                               │
+│ │ install = True                                                                 │                                                                                               │
+│ │  kwargs = {}                                                                   │                                                                                               │
+│ │   tools = <briefcase.integrations.base.ToolCache object at 0x00000159AAB3BE00> │                                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────╯                                                                                               │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\integrations\base.py:81 in verify                                                                 │
+│                                                                                                                                                                                  │
+│    78 │   ) -> Self:                                                                           ╭─────────────────────────────────── locals ────────────────────────────────────╮ │
+│    79 │   │   """Confirm the tool is available and usable on the host platform."""             │    app = None                                                                 │ │
+│    80 │   │   cls.verify_host(tools=tools)                                                     │ kwargs = {'install': True}                                                    │ │
+│ ❱  81 │   │   tool = cls.verify_install(tools=tools, app=app, **kwargs)                        │  tools = <briefcase.integrations.base.ToolCache object at 0x00000159AAB3BE00> │ │
+│    82 │   │   return tool                                                                      ╰───────────────────────────────────────────────────────────────────────────────╯ │
+│    83 │                                                                                                                                                                          │
+│    84 │   @classmethod                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\integrations\android_sdk.py:384 in verify_install                                                 │
+│                                                                                                                                                                                  │
+│    381 │   │   │   │   │   │   "directory path in the ANDROID_HOME environment variable."                                                                                        │
+│    382 │   │   │   │   │   )                                                                                                                                                     │
+│    383 │   │   │   │   │   tools.console.info()                                                                                                                                  │
+│ ❱  384 │   │   │   │   sdk.install()                                                                                                                                             │
+│    385 │   │                                                                                                                                                                     │
+│    386 │   │   # Licences must be accepted to use the SDK                                                                                                                        │
+│    387 │   │   sdk.verify_license()                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                        │
+│ │        install = True                                                                                 │                                                                        │
+│ │         kwargs = {'app': None}                                                                        │                                                                        │
+│ │            sdk = <briefcase.integrations.android_sdk.AndroidSDK object at 0x00000159AC37A0D0>         │                                                                        │
+│ │   sdk_root_env = 'C:\\Users\\User\\AppData\\Local\\Android\\Sdk'                                      │                                                                        │
+│ │  sdk_root_path = WindowsPath('C:/Users/User/AppData/Local/BeeWare/briefcase/Cache/tools/android_sdk') │                                                                        │
+│ │ sdk_source_env = 'ANDROID_HOME'                                                                       │                                                                        │
+│ │          tools = <briefcase.integrations.base.ToolCache object at 0x00000159AAB3BE00>                 │                                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                        │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\integrations\android_sdk.py:416 in install                                                        │
+│                                                                                                                                                                                  │
+│    413 │                                                                                                                                                                         │
+│    414 │   def install(self):                                                                                                                                                    │
+│    415 │   │   """Download and install the Android SDK."""                                                                                                                       │
+│ ❱  416 │   │   cmdline_tools_zip_path = self.tools.file.download(                                                                                                                │
+│    417 │   │   │   url=self.cmdline_tools_url,                                                                                                                                   │
+│    418 │   │   │   download_path=self.tools.base_path,                                                                                                                           │
+│    419 │   │   │   role="Android SDK Command-Line Tools",                                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────── locals ───────────────────────────────────────╮                                                                                          │
+│ │ self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x00000159AC37A0D0> │                                                                                          │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────╯                                                                                          │
+│                                                                                                                                                                                  │
+│ C:\Users\User\Downloads\Toga (BeeWare) works\.venv\Lib\site-packages\briefcase\integrations\file.py:398 in download                                                              │
+│                                                                                                                                                                                  │
+│   395 │   │   │   │   │   f"The reported cause of the problem was {e}"                                                                                                           │
+│   396 │   │   │   │   )                                                                                                                                                          │
+│   397 │   │   │                                                                                                                                                                  │
+│ ❱ 398 │   │   │   raise NetworkFailure(                                                                                                                                          │
+│   399 │   │   │   │   f"download {description}",                                                                                                                                 │
+│   400 │   │   │   │   hint,                                                                                                                                                      │
+│   401 │   │   │   ) from e                                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ─────────────────────────────────────────────────╮                                                                      │
+│ │     algorithm = 'sha256'                                                                                │                                                                      │
+│ │   description = 'Android SDK Command-Line Tools'                                                        │                                                                      │
+│ │        digest = '98b565cb657b012dae6794cefc0f66ae1efb4690c699b78a614b4a6a3505b003'                      │                                                                      │
+│ │ download_path = WindowsPath('C:/Users/User/AppData/Local/BeeWare/briefcase/Cache/tools')                │                                                                      │
+│ │ expected_hash = 'sha256:98b565cb657b012dae6794cefc0f66ae1efb4690c699b78a614b4a6a3505b003'               │                                                                      │
+│ │      filename = None                                                                                    │                                                                      │
+│ │          hint = 'is your computer offline?\n\nThe reported cause of the problem was [WinError 10054'+63 │                                                                      │
+│ │          role = 'Android SDK Command-Line Tools'                                                        │                                                                      │
+│ │          self = <briefcase.integrations.file.File object at 0x00000159AAE88830>                         │                                                                      │
+│ │           url = 'https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zi'+1    │                                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+NetworkFailure: Unable to download Android SDK Command-Line Tools; is your computer offline?
+
+The reported cause of the problem was [WinError 10054] An existing connection was forcibly closed by the remote host

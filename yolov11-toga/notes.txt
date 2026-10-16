@@ -1,0 +1,33 @@
+# YOLOv11 Detector - Toga (BeeWare)
+
+    python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
+    pip install briefcase
+
+    briefcase new                     # create new project
+
+    cd yolov11-toga
+    # copy yolo11n_float32.tflite -> src/yolov11detector/resources/
+    briefcase dev                       # run now
+
+    briefcase create
+    briefcase build                     # .exe
+    briefcase run                       # call .exe
+    briefcase package                   # .msi, .deb/AppImage, .dmg
+
+
+    py -3.13 -m venv .venv13
+    .venv13\Scripts\activate
+    pip install briefcase
+    cd yolov11-toga
+    briefcase dev
+
+    briefcase create android
+    briefcase build android
+    briefcase run android
+    briefcase package android --adhoc-sign   # APK/AAB
+
+briefcase update android
+briefcase build android
+briefcase run android
+
+Tip: if `briefcase dev` complains about the license file, add a LICENSE file or remove `license.file`.

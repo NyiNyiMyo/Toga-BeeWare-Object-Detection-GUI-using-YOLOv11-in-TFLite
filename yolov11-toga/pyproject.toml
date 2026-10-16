@@ -1,0 +1,75 @@
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "YOLOv11 Detector"
+bundle = "com.nyinyimyo"
+version = "1.0.0"
+url = "https://example.com/yolov11detector"
+license.file = "LICENSE"
+author = "NyiNyiMyo"
+author_email = "nyinyi.m@kkumail.com"
+
+[tool.briefcase.app.yolov11detector]
+# Window title is set in code: "YOLOv11 Detector - Toga (BeeWare)".
+# formal_name stays simple so installers / APK names don't choke on "()".
+formal_name = "YOLOv11 Detector"
+description = "YOLOv11 TFLite object detection on images, videos and webcams (Toga / BeeWare)"
+sources = ["src/yolov11detector"]
+test_sources = []
+
+# numpy / opencv / tflite are listed per platform below (Android needs pinned versions)
+requires = []
+
+[tool.briefcase.app.yolov11detector.macOS]
+universal_build = true
+requires = ["toga-cocoa~=0.5.0", "numpy", "opencv-python-headless", "ai-edge-litert"]
+
+[tool.briefcase.app.yolov11detector.linux]
+requires = ["toga-gtk~=0.5.0", "numpy", "opencv-python-headless", "ai-edge-litert"]
+
+[tool.briefcase.app.yolov11detector.linux.system.debian]
+system_requires = [
+    "libcairo2-dev", "libgirepository1.0-dev", "libgirepository-2.0-dev", "pkg-config", "python3-dev",
+]
+system_runtime_requires = ["libgtk-3-0", "gir1.2-gtk-3.0", "libglib2.0-0"]
+
+[tool.briefcase.app.yolov11detector.windows]
+requires = ["toga-winforms~=0.5.0", "numpy", "opencv-python-headless", "ai-edge-litert"]
+
+[tool.briefcase.app.yolov11detector.android]
+# Chaquopy's own index has no tflite-runtime / opencv wheels for Python 3.12+.
+# Flet's index (pypi.flet.dev) does (it's what your Flet APK used), so add it
+# straight into the Chaquopy pip block (applied when `briefcase create android` runs).
+build_gradle_extra_content = """
+chaquopy {
+    defaultConfig {
+        pip {
+            options "--extra-index-url", "https://pypi.flet.dev"
+        }
+        // OpenCV's cv2/__init__.py re-imports cv2.abi3.so from the real folder on disk,
+        // so cv2 must be extracted from the APK instead of being loaded lazily.
+        try {
+            extractPackages("cv2")
+        } catch (Throwable ignored) {
+            extractPackages.add("cv2")
+        }
+    }
+}
+"""
+requires = [
+    "toga-android~=0.5.0",
+    "numpy",
+    "opencv-python-headless",
+    "tflite-runtime",
+]
+base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
+build_gradle_dependencies = [
+    "com.google.android.material:material:1.12.0",
+    # Flet's numpy/opencv/tflite wheels need libc++_shared.so; Chaquopy doesn't ship it for them.
+    # This AAR packs libc++_shared.so for every ABI into the APK so the dynamic loader finds it.
+    "com.facebook.fbjni:fbjni:0.6.0",
+]
+
+[tool.briefcase.app.yolov11detector.android.permission]
+camera = true
