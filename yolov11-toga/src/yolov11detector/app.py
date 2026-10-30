@@ -56,8 +56,7 @@ def T(desktop: str, mobile: str) -> str:
 
 DISPLAY_MAX_SIDE = 900 if IS_MOBILE else 1280
 
-# Your Flet build needed this on Android (VideoCapture returned swapped channels).
-ANDROID_VIDEO_SWAP_RB = True
+ANDROID_VIDEO_SWAP_RB = False
 
 IMAGE_TYPES = ["jpg", "jpeg", "png", "bmp", "webp"]
 VIDEO_TYPES = ["mp4", "avi", "mkv", "mov", "webm", "m4v"]
@@ -288,7 +287,7 @@ def _backends() -> list[int]:
     return [cv2.CAP_DSHOW, cv2.CAP_MSMF, cv2.CAP_ANY] if IS_WINDOWS else [cv2.CAP_ANY]
 
 
-def scan_cameras(max_index: int = 6) -> list[tuple[int, int]]:
+def scan_cameras(max_index: int = 16) -> list[tuple[int, int]]:
     """Returns [(camera_index, working_backend), ...]."""
     found: list[tuple[int, int]] = []
     misses = 0
